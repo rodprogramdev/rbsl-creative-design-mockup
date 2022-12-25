@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F3EFE0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*************************HERO SECTION*********************************/
+
+.hero__section{
+    background-image: url('../images/pexels-danh-huynh-11450272.jpg');
+    background-size:cover;
+    height: 100vh;
+}
+
+/*-------------Navigation------------------*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: rgba(34, 34, 34, 0.85);
+    color: #fff;
+}
+
+
+.hero__brand{
+    font-weight: 700;
+    padding-left: 5%;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+ul li{
+    padding: 5px 10px 10px ;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+
+
+/*-------------HEADING and BUTTON------------------*/
+.hero__wrapper{
+    display: flex; 
+    justify-content: center;
+}
+
+.hero__btn--1{
+    position: absolute;
+    top:80%;
+    left:25%;
+    transform:translate(-50%,-50%);
+    background-color: #22A39F;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 9px 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.hero__heading{
+    background-color: rgba(34, 34, 34, 0.60);
+    border-radius: 2%;
+    position: absolute;
+    top:55%;
+    left:70%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 38%;
+    padding: 3%;
+
+
+}
+
+
+.hero__heading--1{
+    font-size: 48px;
+    text-align:left;
+    padding: 0 7%;
+}
+
+h2{
+    padding: 0 7% 2% 7%;
+}
+
+p{
+    padding: 0 7%;
+}
+
+
+/*************************SECTION 2*********************************/
+
+.section2{
+    display:flex;
+    height: 55vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2__div--1{
+    /* background-color: green;  */
+    width: 50%;
+} 
+
+.section2__heading--2{
+    /* background-color: yellow; */
+    font-size: 40px;
+    padding-left: 10rem;
+}
+
+.section2__div--1 p{
+    /* background-color: orange; */
+    /* width: 60%; */
+    padding-left: 10rem;
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+ .section2__img{
+    /* background-color: orangered;  */
+    margin-right: 5%;
+    transform:rotate(4deg);
+    
+ } 
+
+ img{
+    height: 15rem;
+    width: 29rem;
+    border-radius: 5%;
+ }
+/*************************SECTION 3*********************************/
+.section3{
+    background-color:#434242;
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+.section3__div--1{
+    /* background-color:green; */
+    width: 50%;
+}
+
+
+.section3__div--2{
+     /* background-color: orangered;   */
+    width: 50%;
+
+}
+
+
+.section3__heading--2{
+    font-size: 40px;
+}
+
+
+
+.section3__heading--alignRight{
+   text-align:right;
+   width: 90%;
+}
+
+.section3__content{
+    /* background-color: green; */
+    /* padding-left: 10rem; */
+    padding: 0 0 3rem 10rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.section3__content--txtBtn{
+    align-items:left;
+    justify-content: space-around;
+    text-align: left;
+    font-weight: 700;
+    flex-direction: column;
+    padding-bottom: 5%;
+    position: relative;
+
+}
+.section3__content--txtBtn p{
+  /* background-color: green; */
+  width: 93%;
+  padding-top: 5%;
+  padding-left: 15%;
+  display: block;
+  font-size: 1.5rem;
+  
+}
+
+.section3__btn{
+    background-color: #22A39F;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 9px 20px;
+    font-size: 30px;
+    color: #fff;
+    top:145%;
+    left:70%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+}
+
+span{
+    /* background-color: orangered; */
+    display: block;
+    /* text-align: left; */
+    font-weight: 700;
+}
+
+.section3__span--inline{
+    text-align: left;
+}
+
+.section3__content--img1{
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+
+/* 
+.section3__content--2{
+    background-color: yellow;
+    padding-left: 10rem;
+    display: flex;
+    align-items: center;
+}
+ */
+.section3__content--img2{
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+
+
+/* .section3__content--3{
+    background-color: red;
+    padding-left: 10rem;
+    display: flex;
+    align-items: center;
+} */
+
+.section3__content--img3{
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+
+
+/*************************SECTION 4*********************************/
+
+.section4{
+    height: 80vh;
+  
+}
+
+.section4__imgContainer{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    align-items: center;
+    
+}
+
+.section4--img{
+    border-radius: 0;
+    width: 80%;
+    /* height: auto; */
+}
+
+.section4__img--1{
+    width: 30rem;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.section4__img--2{
+    width: 30rem;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.section4__img--3{
+    width: 30rem;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+}
+
+/*************************FOOTER SECTION *********************************/
+
+/* footer{
+    height: 20vh;
+    background-color:#222;
+}  */
+
+.footer{
+    height: 20vh;
+    /* height: 40vh; */
+    background-color:#222;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin: 5% 0 0 0; /*we added this just to solve the issue of the anchor tag not working */
+    font-weight: 700;
+}
+
+.footer__nav a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
