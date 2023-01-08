@@ -126,13 +126,32 @@ p {
 .section2__img {
   /* background-color: orangered;  */
   margin-right: 5%;
-  transform: rotate(4deg);
+  
 }
+
+.section2__img:hover{
+  transform: rotate(4deg);
+  cursor: pointer;
+  /* transition-delay:0.3s; */
+  box-shadow: 3px 0px 25px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 0px 25px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:3px 0px 25px 0px rgba(0,0,0,0.75);
+  border-radius: 5%;
+}
+
+
 
 img {
   height: 15rem;
   width: 29rem;
   border-radius: 5%;
+}
+
+img:hover{
+  transform: rotate(4deg);
+  box-shadow: 3px 2px 27px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 2px 27px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:3px 2px 27px 0px rgba(0,0,0,0.75);
 }
 /****************************************************SECTION 3************************************************/
 .section3 {
@@ -367,8 +386,6 @@ span {
 @media only screen and (max-width: 600px) {
     .section2__heading--2 {
         margin-top: 247%;
-
-
     }
     
     
