@@ -344,6 +344,10 @@ span {
 
 /*------HERO SECTION Media Querries----------*/
 @media only screen and (max-width: 600px) {
+  .navbar{
+    z-index:1;
+    background-color: rgb(34, 34, 34);
+  }
   .hero__heading {
     background-color: rgba(34, 34, 34, 0.6);
     border-radius: 2%;
@@ -354,21 +358,22 @@ span {
     color: #fff;
     width: 83%;
     padding: 3%;
+    
   }
 
   .hero__heading--1 {
     font-size: 36px;
     text-align: center;
-    padding: 0 0 20% 0;
+    padding: 0 0 3% 0;
   }
 
   h2 {
-    padding-bottom: 20%;
+    padding-bottom: 3%;
     text-align: center;
   }
 
   p {
-    padding: 0 7% 20% 7%;
+    padding: 0 7% 5% 7%;
   }
 
   .hero__btn--1 {
@@ -388,6 +393,4 @@ span {
     .section2__heading--2 {
         margin-top: 247%;
     }
-    
-    
 }
