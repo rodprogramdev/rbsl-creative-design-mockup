@@ -30,6 +30,7 @@ nav {
 .hero__brand {
   font-weight: 700;
   padding-left: 5%;
+  color: #fff;
 }
 
 ul {
@@ -329,7 +330,7 @@ span {
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  margin: 5% 0 0 0; /*we added this just to solve the issue of the anchor tag not working */
+  margin: 10% 0 0 0; /*we added this just to solve the issue of the anchor tag not working */
   font-weight: 700;
 }
 
